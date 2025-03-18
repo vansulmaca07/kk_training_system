@@ -1,11 +1,6 @@
 <?php
     session_start();
- /*   if(!isset($_SESSION["userlevel"])) { 
-        header("Location: loginpage.php"); //returns to loginpage if the user force its way to attendance page URL 
-    }
-    else {
-        //continue
-    } */
+
     include ('includes/dbh2.inc.php');
     date_default_timezone_set("Japan");
 
